@@ -4,7 +4,7 @@ Command-line client for GitLab.
 
 ## Installation
 
-    $ gem install lab
+    $ gem install gitlab-cli
 
 ## Usage
 

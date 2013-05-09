@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'lab/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lab"
+  spec.name          = "gitlab-cli"
   spec.version       = Lab::VERSION
   spec.authors       = ["Johannes Gorset"]
   spec.email         = ["jgorset@gmail.com"]
