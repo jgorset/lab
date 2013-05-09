@@ -10,7 +10,7 @@ Command-line client for GitLab.
 
     $ lab
 
-    # Create a new repsository
+    # Create a new repository
     $ lab repository create hello-world
 
     # List repositores
