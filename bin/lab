@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
 require "lab"
+require "gitlab"
 
-Lab::CLI.start
+begin
+  Lab::CLI.start
+rescue Gitlab::Error::Error => e
+  warn e.message
+end
