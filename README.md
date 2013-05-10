@@ -19,6 +19,11 @@ Command-line client for GitLab.
     # List users
     $ lab user list
 
+## Completion
+
+Lab comes with autocompletion for your favorite shell (as long as your favorite shell
+is zsh). To install it, copy `completion/lab.zsh` onto your `$FPATH`.
+
 ## Contributing
 
 1. Fork it
