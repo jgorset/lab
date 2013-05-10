@@ -1,6 +1,7 @@
 # Lab
 
 [![Code Climate](https://codeclimate.com/github/jgorset/lab.png)](https://codeclimate.com/github/jgorset/lab)
+[![Build Status](https://travis-ci.org/jgorset/lab.png?branch=master)](https://travis-ci.org/jgorset/lab)
 
 Command-line client for GitLab.
 
