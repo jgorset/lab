@@ -5,6 +5,18 @@ module Lab
 
   class CLI < Thor
 
+    def self.start
+      unless Lab.configured?
+        puts "Hi! Since this is your first time using lab, you must authenticate before proceeding."
+
+        [new, Lab].each do |object|
+          object.configure
+        end
+      end
+
+      super
+    end
+
     desc "configure", "Configure lab"
     def configure
       domain        = ask "Domain:"
