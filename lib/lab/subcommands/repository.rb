@@ -12,7 +12,7 @@ module Lab
       end
 
       desc "create NAME", "Create a new repository"
-      def create
+      def create name
         Gitlab.create_project name
       end
 
