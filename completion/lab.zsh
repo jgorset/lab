@@ -1,6 +1,6 @@
 #compdef lab
 
-local state line cmds ret=1
+local state line cmds
 
 _arguments -C '1: :->commands' '2: :->subcommands'
 
