@@ -4,14 +4,14 @@ module Lab
 
     class Repository < Thor
 
-      desc "repository list", "List repositories"
+      desc "list", "List repositories"
       def list
         Gitlab.projects.each do |project|
           puts project.name
         end
       end
 
-      desc "repository create NAME", "Create a new repository"
+      desc "create NAME", "Create a new repository"
       def create
         Gitlab.create_project name
       end
