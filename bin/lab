@@ -5,6 +5,6 @@ require "gitlab"
 
 begin
   Lab::CLI.start
-rescue Gitlab::Error::Error => e
+rescue Exception => e
   warn e.message
 end
