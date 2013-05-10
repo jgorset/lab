@@ -6,7 +6,6 @@ _arguments -C '1: :->commands' '2: :->subcommands'
 
 case $state in
   commands)
-    local -a cmds
     cmds=(
       'repository:Manage repositores'
       'user:Manage users'
