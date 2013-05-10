@@ -19,6 +19,9 @@ module Lab
 
     desc "repository COMMAND", "Manage repositories"
     subcommand "repository", Subcommands::Repository
+
+    desc "user COMMAND", "Manage users"
+    subcommand "user", Subcommands::User
   end
 
 end

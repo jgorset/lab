@@ -16,6 +16,9 @@ Command-line client for GitLab.
     # List repositores
     $ lab repository list
 
+    # List users
+    $ lab user list
+
 ## Contributing
 
 1. Fork it
