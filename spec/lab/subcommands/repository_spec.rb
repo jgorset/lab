@@ -5,8 +5,8 @@ describe Lab::Subcommands::Repository do
     cli = Lab::Subcommands::Repository.new
 
     repositories = [
-      stub(name: "foo"),
-      stub(name: "bar")
+      double(name: "foo"),
+      double(name: "bar")
     ]
 
     Gitlab.

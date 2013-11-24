@@ -5,8 +5,8 @@ describe Lab::Subcommands::User do
     cli = Lab::Subcommands::User.new
 
     users= [
-      stub(name: "foo"),
-      stub(name: "bar")
+      double(name: "foo"),
+      double(name: "bar")
     ]
 
     Gitlab.
